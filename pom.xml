@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.github.ddth</groupId>
+		<artifactId>ddth-parent</artifactId>
+		<version>1</version>
+	</parent>
+
+	<groupId>com.github.ddth</groupId>
+	<artifactId>ddth-demo</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>ddth-demo</name>
+	<description>DDTH's Maven Demo</description>
+	<url>https://github.com/btnguyen2k/ddth-demo</url>
+
+	<licenses>
+		<license>
+			<name>The MIT License (MIT)</name>
+			<url>http://opensource.org/licenses/MIT</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>git@github.com:btnguyen2k/ddth-demo</url>
+		<connection>scm:git:git@github.com:btnguyen2k/ddth-demo</connection>
+		<developerConnection>scm:git:git@github.com:btnguyen2k/ddth-demo</developerConnection>
+	</scm>
+	<developers>
+		<developer>
+			<id>btnguyen2k</id>
+			<name>Thanh Ba Nguyen</name>
+			<email>btnguyen2k@gmail.com</email>
+		</developer>
+	</developers>
+
+	<modules>
+		<module>ddth-demo-module1</module>
+		<module>ddth-demo-module2</module>
+	</modules>
+
+	<!-- <build> <pluginManagement> <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+		<artifactId>maven-assembly-plugin</artifactId> <version>2.4</version> </plugin> 
+		<plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
+		<version>3.1</version> <configuration> <source>${version.java}</source> <target>${version.java}</target> 
+		</configuration> </plugin> <plugin> <groupId>org.apache.felix</groupId> <artifactId>maven-bundle-plugin</artifactId> 
+		<version>2.4.0</version> <extensions>true</extensions> </plugin> </plugins> 
+		</pluginManagement> </build> -->
+</project>
